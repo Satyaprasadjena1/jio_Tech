@@ -5,32 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Business & Consulting</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="CSS/business.css"> <!-- Your custom CSS -->
 </head>
 <body>
 
   <!-- Navigation Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <a class="navbar-brand" href="#">Business & Consulting</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#services">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#clients">Clients</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
+  <nav class="navbar navbar-expand-md navbar-light bg-success fixed-top">
+
+    <a href="#" class="navbar-brand"><img src="images/logo.jpg" height="50px"></a>
+    <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span></button>
+    
+    <div class="collapse navbar-collapse justify-content-between" id="nav">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="index.html#about">About us</a></li>
+            <div class="dropdown">
+            <li class="nav-item" data-toggle="dropdown">
+              <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="index.html#services" >Services <i class="fa fa-caret-down"></i></a>
+            </li>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="itserv.html">IT Services & Consulting</a>
+                <a class="dropdown-item" href="training.html">Training & Development</a>
+            </div>
+            </div>
+            <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#team">Testimonials</a></li>
+            <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Faq</a></li>
+            <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#">Blog</a></li>
+            <div class="dropdown">
+                <li class="nav-item" data-toggle="dropdown">
+                  <a class="nav-link text-light text-uppercase font-weight-bold px-3" href="#Carrier" >Career <i class="fa fa-caret-down"></i></a>
+                </li>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="current_O.html">Current Opening</a>
+                    <a class="dropdown-item" href="c1.html">Career at Jiotech</a>
+                </div>
+                </div>
+            <li class="nav-item"><a class="nav-link text-light text-uppercase font-weight-bold px-3" href="contact.html">Contact</a></li>
         </ul>
-      </div>
-    </div>
-  </nav>
+
+     </div>
+
+ </nav>
 
   <!-- Hero Section -->
   <section id="hero" class="d-flex align-items-center">
